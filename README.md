@@ -1,5 +1,29 @@
 # Laravel API for Products
 
+## Requirements
+
+-   PHP >= 7.3
+-   Composer
+-   Laravel >= 8.x
+-   MySQL
+
+## Installation
+
+1.  **Clone the repository**
+
+        ```bash
+        git clone https://github.com/RifatHasan-g/product-api.git
+        cd product-api
+        ```
+
+    Open the .env
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=product-api
+    DB_USERNAME=root
+    DB_PASSWORD=
+
 ## Setup
 
 1. Clone the repository.
