@@ -26,10 +26,11 @@
 
 ## Setup
 
-1. Clone the repository.
-2. Install dependencies: `composer install`
-3. Run migrations: `php artisan migrate`
-4. Run the server: `php artisan serve`
+Clone the repository.
+Generate application key: `php artisan key:generate`
+Run database migrations: `php artisan migrate`
+Install Laravel Passport: `php artisan passport:install`
+Run the server: `php artisan serve`
 
 ## Endpoints
 
